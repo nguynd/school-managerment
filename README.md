@@ -46,6 +46,7 @@ npm install
 
 dùng terminal, gõ lệnh sau:
 cd fe
+Set-ExecutionPolicy Unrestricted -Scope Process
 npm config set registry https://registry.npmjs.org/
 npm install
 
