@@ -23,10 +23,15 @@ Sử dụng **pgAdmin4**
 Khôi phục database từ file .backup
 
 Mở pgAdmin4 → Kết nối server.
+
 Tạo database mới
+
 Chuột phải vào Databases → Chọn database đã tạo → Restore.
+
 Chọn file db.backup.
+
 Chọn định dạng: Custom or tar.
+
 Bấm Restore.
 
 ## Cấu hình môi trường
@@ -39,15 +44,21 @@ Bấm Restore.
 ### Cài đặt thư viện cho Backend
 
 dùng terminal, gõ lệnh sau:
+
 cd be
+
 npm install
 
 ### Cài đặt thư viện cho Frontend
 
 dùng terminal, gõ lệnh sau:
+
 cd fe
+
 Set-ExecutionPolicy Unrestricted -Scope Process
+
 npm config set registry https://registry.npmjs.org/
+
 npm install
 
 ## Chạy dự án
@@ -55,16 +66,23 @@ npm install
 ### Chạy Backend
 
 dùng terminal, gõ lệnh sau:
+
 cd be
+
 Set-ExecutionPolicy Unrestricted -Scope Process
+
 npm run dev
 
 ### Chạy Frontend
 
 dùng terminal, gõ lệnh sau:
+
 cd fe
+
 Set-ExecutionPolicy Unrestricted -Scope Process
+
 npm run dev
+
 
 ### Đường dẫn dự án
 
